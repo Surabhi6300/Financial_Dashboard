@@ -32,7 +32,7 @@ This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TS
 git clone https://github.com/Surabhi6300/Finacial_Dashboard.git
 cd Finacial_Dashboard
 
-text
+
 
 2. (Recommended) Create and activate a virtual environment:
 python -m venv venv
@@ -43,17 +43,14 @@ Windows
 macOS/Linux
 source venv/bin/activate
 
-text
 
 3. Install dependencies:
 pip install -r requirements.txt
 
-text
 
 4. Launch the Streamlit application:
 streamlit run app.py
 
-text
 
 5. In the sidebar, enter your desired stock ticker and customize the period and interval to start visualizing!
 
