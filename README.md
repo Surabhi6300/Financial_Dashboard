@@ -34,7 +34,6 @@ This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TS
 (Recommended) Create and activate a virtual environment:
 
 
-Copy code
 ```bash
 python -m venv venv
 # Windows
