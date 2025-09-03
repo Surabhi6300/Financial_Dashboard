@@ -33,7 +33,7 @@ This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TS
    cd Finacial_Dashboard
 (Recommended) Create and activate a virtual environment:
 
-bash
+
 Copy code
 ```bash
 python -m venv venv
