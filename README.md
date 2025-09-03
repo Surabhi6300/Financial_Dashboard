@@ -35,24 +35,29 @@ This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TS
 
 bash
 Copy code
+```bash
 python -m venv venv
 # Windows
+```bash
 .\venv\Scripts\activate
 # macOS/Linux
+```bash
 source venv/bin/activate
 Install dependencies:
 
 bash
 Copy code
+```bash
 pip install -r requirements.txt
 Launch the Streamlit application:
 
 bash
 Copy code
+```bash
 streamlit run app.py
 In the sidebar, enter your desired stock ticker and customize the period and interval to start visualizing!
 
-🛠️ Project Structure
+ Project Structure
 app.py - Main application script containing Streamlit dashboard logic
 
 requirements.txt - Python dependencies
