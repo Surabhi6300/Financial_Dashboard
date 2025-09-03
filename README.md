@@ -65,6 +65,6 @@ requirements.txt - Python dependencies
 Contributions, suggestions, and improvements are most welcome! Feel free to fork the repository and open pull requests.
 
 -- Contact
-Reach out to Surabhi on GitHub for any questions or feedback.
+Reach out to me on GitHub for any questions or feedback.
 
 Unlock the power of financial insights with an easy-to-use dashboard—happy investing! 
