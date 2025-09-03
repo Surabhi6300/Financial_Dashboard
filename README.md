@@ -1,13 +1,12 @@
-text
 # 📈 Financial Dashboard
 
 Welcome to the **Financial Dashboard**, an interactive web application built with Streamlit that empowers users to visualize and analyze stock market data seamlessly.
 
-## 🚀 Project Overview
+##  Project Overview
 
 This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TSLA) and explore historical stock price data with customizable periods and intervals. Powered by Yahoo Finance and enhanced with Plotly visualizations, it provides clear insights through candlestick charts, moving averages, trading volume bars, and raw data tables.
 
- 🌟 Key Features
+## Key Features
 
 - **Dynamic Stock Selection:** Enter any valid stock ticker symbol through an intuitive sidebar input.
 - **Custom Time Frame:** Select data periods ranging from 1 month to 10 years.
@@ -18,7 +17,7 @@ This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TS
 - **Data Transparency:** Inspect the last 20 rows of raw stock data in a sortable, filterable table.
 - **Data Export:** Download the displayed data as a CSV file for further analysis.
 
- Technology Stack
+##  Technology Stack
 
 - **Python** - Core programming language
 - **Streamlit** - Web app framework for quick and beautiful UI
@@ -26,49 +25,46 @@ This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TS
 - **pandas** - Efficient data manipulation and analysis
 - **plotly** - Advanced interactive charting library
 
- How to Run Locally
+##  How to Run Locally
 
 1. Clone the repository:
-git clone https://github.com/Surabhi6300/Finacial_Dashboard.git
-cd Finacial_Dashboard
+   ```bash
+   git clone https://github.com/Surabhi6300/Finacial_Dashboard.git
+   cd Finacial_Dashboard
+(Recommended) Create and activate a virtual environment:
 
-
-
-2. (Recommended) Create and activate a virtual environment:
+bash
+Copy code
 python -m venv venv
-
-Windows
+# Windows
 .\venv\Scripts\activate
-
-macOS/Linux
+# macOS/Linux
 source venv/bin/activate
+Install dependencies:
 
-
-3. Install dependencies:
+bash
+Copy code
 pip install -r requirements.txt
+Launch the Streamlit application:
 
-
-4. Launch the Streamlit application:
+bash
+Copy code
 streamlit run app.py
+In the sidebar, enter your desired stock ticker and customize the period and interval to start visualizing!
 
+🛠️ Project Structure
+app.py - Main application script containing Streamlit dashboard logic
 
-5. In the sidebar, enter your desired stock ticker and customize the period and interval to start visualizing!
+requirements.txt - Python dependencies
 
- Project Structure
+.gitignore - Ignored files for Git
 
-- `app.py` - Main application script containing Streamlit dashboard logic
-- `requirements.txt` - Python dependencies
-- `.gitignore` - Ignored files for Git
-- `.idea/` - IDE-specific files (PyCharm)
+.idea/ - IDE-specific files (PyCharm)
 
-  Contribution
-
+💡 Contribution
 Contributions, suggestions, and improvements are most welcome! Feel free to fork the repository and open pull requests.
 
-  Contact
+-- Contact
+Reach out to Surabhi on GitHub for any questions or feedback.
 
-Reach out to Surabhi on [GitHub](https://github.com/Surabhi6300) for any questions or feedback.
-
----
-
-Unlock the power of financial insights with an easy-to-use dashboard—happy investing! 🚀📊
+Unlock the power of financial insights with an easy-to-use dashboard—happy investing! 
