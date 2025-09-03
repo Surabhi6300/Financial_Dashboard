@@ -45,16 +45,15 @@ python -m venv venv
 
 source venv/bin/activate
 Install dependencies:
-
-```bash
 Copy code
+```bash
 pip install -r requirements.txt
 ```
 Launch the Streamlit application:
-
-bash
 Copy code
+```bash
 streamlit run app.py
+```
 In the sidebar, enter your desired stock ticker and customize the period and interval to start visualizing!
 
  Project Structure
