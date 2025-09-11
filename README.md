@@ -1,9 +1,6 @@
-# 📈 Financial Dashboard
-
+#  Financial Dashboard
 Welcome to the **Financial Dashboard**, an interactive web application built with Streamlit that empowers users to visualize and analyze stock market data seamlessly.
-
 ##  Project Overview
-
 This dashboard allows users to enter a stock ticker symbol (e.g., AAPL, MSFT, TSLA) and explore historical stock price data with customizable periods and intervals. Powered by Yahoo Finance and enhanced with Plotly visualizations, it provides clear insights through candlestick charts, moving averages, trading volume bars, and raw data tables.
 
 ## Key Features
